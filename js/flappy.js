@@ -58,7 +58,7 @@ var star = [];
 
 function preload() {
     game.load.image("Frog", "../assets/flappy_frog.png");
-    game.load.image("Background", "../assets/Background_frog.jpg");
+    game.load.image("Background", "../assets/Free-vector-cartoon-natural.jpg");
     game.load.audio("score", "../assets/point.ogg");
     game.load.image("pipe", "../assets/pipe.png");
     game.load.image("pipeEnd", "../assets/pipe-end.png");
@@ -262,5 +262,3 @@ function addstar(x, y){
     bonus.body.velocity.x = -gameSpeed;
 
 }
-
-
