@@ -29,9 +29,6 @@ var balloons = [];
 var weights = [];
 var star = [];
 
-// test
-
-//hh
 
 /*
  * Loads all resources for the game and gives them names.
@@ -262,3 +259,5 @@ function addstar(x, y){
     bonus.body.velocity.x = -gameSpeed;
 
 }
+
+
